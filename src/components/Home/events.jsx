@@ -1,10 +1,11 @@
-import { HiCalendar } from 'react-icons/hi'
+import { HiCalendar, HiCode, HiLightningBolt } from 'react-icons/hi'
 import { Timeline } from 'flowbite-react'
 
 export default function Events() {
     return (
-        <div className="flex justify-center items-center flex-col mt-10 mr-40 ml-40">
-            <Timeline>
+        <div className="mt-9 shadow-2xl p-10 rounded-2xl w-10/12 mb-20 flex flex-col items-center mx-auto">
+            <h1 className="text-center text-8xl max-lg:text-4xl font-serif text-black dark:text-white">Events</h1>
+            <Timeline className="mt-5 ml-5">
             <Timeline.Item>
                     <Timeline.Point icon={HiCalendar} />
                     <Timeline.Content>
@@ -16,7 +17,7 @@ export default function Events() {
                     </Timeline.Content>
                 </Timeline.Item>
                 <Timeline.Item>
-                    <Timeline.Point icon={HiCalendar} />
+                    <Timeline.Point icon={HiLightningBolt} />
                     <Timeline.Content>
                         <Timeline.Time>2 May 2024</Timeline.Time>
                         <Timeline.Title>Code ⚡ Blaze</Timeline.Title>
@@ -26,7 +27,21 @@ export default function Events() {
                         </Timeline.Body>
                     </Timeline.Content>
                 </Timeline.Item>
+                <Timeline.Item>
+                    <Timeline.Point icon={HiCode} />
+                    <Timeline.Content>
+                        <Timeline.Time>29 December 2023</Timeline.Time>
+                        <Timeline.Title>CODE-QUEST</Timeline.Title>
+                        <Timeline.Body>
+                            A 6 hour coding solo event where students were given 12 DSA problems to solve.
+                            Winner was awarded with cash prize of 5,000 INR and 2nd runner up was awarded with goodies.
+                        </Timeline.Body>
+                    </Timeline.Content>
+                </Timeline.Item>
             </Timeline>
+            <button className="mt-5 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+                Past events
+            </button>
         </div>
     )
 }
