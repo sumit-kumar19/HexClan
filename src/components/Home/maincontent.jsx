@@ -9,9 +9,9 @@ export default function MainContent(){
                 <p className="mt-5  max-lg:text-2xl text-4xl text-black font-extralight ">Welcome to the Hex Clan website</p>
                 <p className="mt-5 text-4xl max-lg:text-2xl text-black font-extralight">We are a group of developers who love to code</p>
                 {/* Motive */}
-                <p className="mt-5 text-4xl max-lg:text-2xl text-blue-600 font-semibold"><span className="underline underline-offset-8  text-emerald-600">
-                    <span className="text-fuchsia-600" > Code, </span>
-                    <span className="text-yellow-600"> Conqueror, </span>
+                <p className="mt-5 text-4xl max-lg:text-2xl text-blue-600 font-semibold"><span >
+                    <span className="text-purple-500" > Code, </span>
+                    <span className="text-lime-400"> Conqueror, </span>
                     <span className="text-red-600"> Create </span>
                 </span>
                 </p>
