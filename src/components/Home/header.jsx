@@ -5,7 +5,7 @@ export default function Header() {
         <header>
             <Navbar fluid className='justify-evenly bg-slate-300'>
                 <Navbar.Brand href="https://flowbite-react.com">
-                    <img src="/vite.svg" className="mr-3 h-8 sm:h-9" alt="Flowbite React Logo" />
+                    <img src="/HexClan/vite.svg" className="mr-3 h-8 sm:h-9" alt="Flowbite React Logo" />
                     <span className="self-center whitespace-nowrap text-xl font-semibold text-black dark:text-white">HEX-CLAN</span>
                 </Navbar.Brand>
                 <Navbar.Toggle />
